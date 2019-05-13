@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,400,400i,600,700&subset=latin-ext');
+
+body{
+    background-image: url(../img/fondo-login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+input[type="text"],input[type="password"]{
+    width: 80%;
+    padding: 1rem;
+    border: none;  
+}
+
+.input-group{
+    margin-bottom: 1rem;
+    border: 1px solid #aaa;
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.icon{
+    margin-top: 0.7rem;
+    min-width: 3rem;
+    text-align: center;
+    color: #999;
+}
+
+.logo-empresa{
+    height: 8rem;
+}
+
+.circulo-logo{
+    background: #112740;
+    width: 8em;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.text-custom{
+    color: #112740;
+}
+
+.bg-custom{
+    background: #429EFF;
+}
+
+.btn-custom{
+    background: #214f80;
+    color: white;
+}
+.btn-custom:hover{
+    background: #112740;
+    color: white;
+}
